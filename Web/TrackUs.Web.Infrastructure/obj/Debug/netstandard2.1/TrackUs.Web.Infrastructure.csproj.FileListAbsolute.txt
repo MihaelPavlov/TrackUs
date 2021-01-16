@@ -1,0 +1,9 @@
+C:\Users\Owner\source\repos\TrackUs\Web\TrackUs.Web.Infrastructure\bin\Debug\netstandard2.1\TrackUs.Web.Infrastructure.deps.json
+C:\Users\Owner\source\repos\TrackUs\Web\TrackUs.Web.Infrastructure\bin\Debug\netstandard2.1\TrackUs.Web.Infrastructure.dll
+C:\Users\Owner\source\repos\TrackUs\Web\TrackUs.Web.Infrastructure\bin\Debug\netstandard2.1\TrackUs.Web.Infrastructure.pdb
+C:\Users\Owner\source\repos\TrackUs\Web\TrackUs.Web.Infrastructure\obj\Debug\netstandard2.1\TrackUs.Web.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Owner\source\repos\TrackUs\Web\TrackUs.Web.Infrastructure\obj\Debug\netstandard2.1\TrackUs.Web.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Owner\source\repos\TrackUs\Web\TrackUs.Web.Infrastructure\obj\Debug\netstandard2.1\TrackUs.Web.Infrastructure.AssemblyInfo.cs
+C:\Users\Owner\source\repos\TrackUs\Web\TrackUs.Web.Infrastructure\obj\Debug\netstandard2.1\TrackUs.Web.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\TrackUs\Web\TrackUs.Web.Infrastructure\obj\Debug\netstandard2.1\TrackUs.Web.Infrastructure.dll
+C:\Users\Owner\source\repos\TrackUs\Web\TrackUs.Web.Infrastructure\obj\Debug\netstandard2.1\TrackUs.Web.Infrastructure.pdb

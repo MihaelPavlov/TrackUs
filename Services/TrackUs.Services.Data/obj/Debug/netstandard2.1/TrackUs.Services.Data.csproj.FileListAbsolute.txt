@@ -1,0 +1,16 @@
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\bin\Debug\netstandard2.1\TrackUs.Services.Data.deps.json
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\bin\Debug\netstandard2.1\TrackUs.Services.Data.dll
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\bin\Debug\netstandard2.1\TrackUs.Services.Data.pdb
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\bin\Debug\netstandard2.1\TrackUs.Data.Common.dll
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\bin\Debug\netstandard2.1\TrackUs.Data.Models.dll
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\bin\Debug\netstandard2.1\TrackUs.Services.Mapping.dll
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\bin\Debug\netstandard2.1\TrackUs.Data.Common.pdb
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\bin\Debug\netstandard2.1\TrackUs.Data.Models.pdb
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\bin\Debug\netstandard2.1\TrackUs.Services.Mapping.pdb
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\obj\Debug\netstandard2.1\TrackUs.Services.Data.csprojAssemblyReference.cache
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\obj\Debug\netstandard2.1\TrackUs.Services.Data.AssemblyInfoInputs.cache
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\obj\Debug\netstandard2.1\TrackUs.Services.Data.AssemblyInfo.cs
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\obj\Debug\netstandard2.1\TrackUs.Services.Data.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\obj\Debug\netstandard2.1\TrackUs.Services.Data.csproj.CopyComplete
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\obj\Debug\netstandard2.1\TrackUs.Services.Data.dll
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\obj\Debug\netstandard2.1\TrackUs.Services.Data.pdb

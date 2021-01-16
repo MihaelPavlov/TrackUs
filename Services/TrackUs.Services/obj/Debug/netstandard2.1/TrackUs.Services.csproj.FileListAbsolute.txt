@@ -1,0 +1,9 @@
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services\bin\Debug\netstandard2.1\TrackUs.Services.deps.json
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services\bin\Debug\netstandard2.1\TrackUs.Services.dll
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services\bin\Debug\netstandard2.1\TrackUs.Services.pdb
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services\obj\Debug\netstandard2.1\TrackUs.Services.csprojAssemblyReference.cache
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services\obj\Debug\netstandard2.1\TrackUs.Services.AssemblyInfoInputs.cache
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services\obj\Debug\netstandard2.1\TrackUs.Services.AssemblyInfo.cs
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services\obj\Debug\netstandard2.1\TrackUs.Services.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services\obj\Debug\netstandard2.1\TrackUs.Services.dll
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services\obj\Debug\netstandard2.1\TrackUs.Services.pdb

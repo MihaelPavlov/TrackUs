@@ -1,0 +1,12 @@
+C:\Users\Owner\source\repos\TrackUs\Data\TrackUs.Data.Models\bin\Debug\netstandard2.1\TrackUs.Data.Models.deps.json
+C:\Users\Owner\source\repos\TrackUs\Data\TrackUs.Data.Models\bin\Debug\netstandard2.1\TrackUs.Data.Models.dll
+C:\Users\Owner\source\repos\TrackUs\Data\TrackUs.Data.Models\bin\Debug\netstandard2.1\TrackUs.Data.Models.pdb
+C:\Users\Owner\source\repos\TrackUs\Data\TrackUs.Data.Models\bin\Debug\netstandard2.1\TrackUs.Data.Common.dll
+C:\Users\Owner\source\repos\TrackUs\Data\TrackUs.Data.Models\bin\Debug\netstandard2.1\TrackUs.Data.Common.pdb
+C:\Users\Owner\source\repos\TrackUs\Data\TrackUs.Data.Models\obj\Debug\netstandard2.1\TrackUs.Data.Models.csprojAssemblyReference.cache
+C:\Users\Owner\source\repos\TrackUs\Data\TrackUs.Data.Models\obj\Debug\netstandard2.1\TrackUs.Data.Models.AssemblyInfoInputs.cache
+C:\Users\Owner\source\repos\TrackUs\Data\TrackUs.Data.Models\obj\Debug\netstandard2.1\TrackUs.Data.Models.AssemblyInfo.cs
+C:\Users\Owner\source\repos\TrackUs\Data\TrackUs.Data.Models\obj\Debug\netstandard2.1\TrackUs.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\TrackUs\Data\TrackUs.Data.Models\obj\Debug\netstandard2.1\TrackUs.Data.Models.csproj.CopyComplete
+C:\Users\Owner\source\repos\TrackUs\Data\TrackUs.Data.Models\obj\Debug\netstandard2.1\TrackUs.Data.Models.dll
+C:\Users\Owner\source\repos\TrackUs\Data\TrackUs.Data.Models\obj\Debug\netstandard2.1\TrackUs.Data.Models.pdb
