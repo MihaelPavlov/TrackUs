@@ -6,8 +6,10 @@
 
     using TrackUs.Data.Common.Models;
 
-    public class Request : BaseDeletableModel<int>
+    public class Header : BaseDeletableModel<int>
     {
-        public DateTime Date { get; set; }
+        public string Key { get; set; }
+
+        public string Value { get; set; }
     }
 }

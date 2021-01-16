@@ -7,6 +7,7 @@ namespace TrackUs.Data.Models
     using TrackUs.Data.Common.Models;
 
     using Microsoft.AspNetCore.Identity;
+    using TrackUs.Data.Models.Services;
 
     public class ApplicationUser : IdentityUser, IAuditInfo, IDeletableEntity
     {
@@ -33,5 +34,7 @@ namespace TrackUs.Data.Models
         public virtual ICollection<IdentityUserClaim<string>> Claims { get; set; }
 
         public virtual ICollection<IdentityUserLogin<string>> Logins { get; set; }
+
+        public virtual ICollection<Service> Services { get; set; }
     }
 }

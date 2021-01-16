@@ -39,7 +39,6 @@
 
         public DbSet<ServiceResponse> ServiceResponses { get; set; }
 
-        public DbSet<UserService> UserServices { get; set; }
 
 
         public override int SaveChanges() => this.SaveChanges(true);
@@ -99,10 +98,7 @@
                 entity.HasKey(x => new { x.RequestId, x.ServiceId });
             });
 
-            builder.Entity<UserService>(entity =>
-            {
-                entity.HasKey(x => new { x.ApplicationUserId, x.ServiceId });
-            });
+       
         }
 
         private static void SetIsDeletedQueryFilter<T>(ModelBuilder builder)

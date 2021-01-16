@@ -9,5 +9,11 @@
     public class Response : BaseDeletableModel<int>
     {
         public int StatusCode { get; set; }
+
+        public DateTime Date { get; set; }
+
+        public bool IsTimeout { get; set; } 
+
+        // Add Headers
     }
 }

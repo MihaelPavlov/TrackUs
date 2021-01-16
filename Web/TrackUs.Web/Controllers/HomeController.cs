@@ -26,7 +26,8 @@
             {
                 using (HttpWebResponse webresponse = (HttpWebResponse)myWebRequest.GetResponse())
                 {
-                    this.ViewBag.result = webresponse.StatusCode.ToString();          
+                    this.ViewBag.result = webresponse.StatusCode.ToString();
+
                 }
 
             }
