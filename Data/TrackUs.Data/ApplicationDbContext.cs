@@ -6,11 +6,12 @@
     using System.Threading;
     using System.Threading.Tasks;
 
-    using TrackUs.Data.Common.Models;
     using TrackUs.Data.Models;
+    using TrackUs.Data.Common.Models;
 
     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore;
+    using TrackUs.Data.Models.Services;
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser, ApplicationRole, string>
     {
@@ -25,6 +26,21 @@
         }
 
         public DbSet<Setting> Settings { get; set; }
+
+        public DbSet<Service> Services { get; set; }
+
+        public DbSet<Log> Logs { get; set; }
+
+        public DbSet<Request> Requests { get; set; }
+
+        public DbSet<ServiceRequest> ServiceRequests { get; set; }
+
+        public DbSet<Response> Responses { get; set; }
+
+        public DbSet<ServiceResponse> ServiceResponses { get; set; }
+
+        public DbSet<UserService> UserServices { get; set; }
+
 
         public override int SaveChanges() => this.SaveChanges(true);
 
@@ -72,6 +88,21 @@
             {
                 foreignKey.DeleteBehavior = DeleteBehavior.Restrict;
             }
+
+            builder.Entity<ServiceResponse>(entity =>
+            {
+                entity.HasKey(x => new { x.ResponseId, x.ServiceId });
+            });
+
+            builder.Entity<ServiceRequest>(entity =>
+            {
+                entity.HasKey(x => new { x.RequestId, x.ServiceId });
+            });
+
+            builder.Entity<UserService>(entity =>
+            {
+                entity.HasKey(x => new { x.ApplicationUserId, x.ServiceId });
+            });
         }
 
         private static void SetIsDeletedQueryFilter<T>(ModelBuilder builder)

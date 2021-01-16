@@ -14,10 +14,10 @@
         public IActionResult Index()
         {
             // Create a new 'Uri' object with the specified string.
-            Uri myUri = new Uri("https://cyberwars.azurewebsites.net/");
+            Uri myUri = new Uri("https://getbootstrap.com/docs/4.0/content/tables/");// user => services => request, response => 
             // Create a new request to the above mentioned URL. 
             WebRequest myWebRequest = WebRequest.Create(myUri);
-            myWebRequest.Timeout = 5;
+            myWebRequest.Timeout = 500;
 
             // Assign the response object of 'WebRequest' to a 'WebResponse' variable.
             //   WebResponse myWebResponse = myWebRequest.GetResponse();
@@ -26,7 +26,7 @@
             {
                 using (HttpWebResponse webresponse = (HttpWebResponse)myWebRequest.GetResponse())
                 {
-                    this.ViewBag.result = webresponse.StatusCode.ToString();
+                    this.ViewBag.result = webresponse.StatusCode.ToString();          
                 }
 
             }
