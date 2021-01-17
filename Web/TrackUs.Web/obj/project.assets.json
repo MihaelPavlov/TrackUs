@@ -2397,7 +2397,8 @@
         "dependencies": {
           "TrackUs.Data.Common": "1.0.0",
           "TrackUs.Data.Models": "1.0.0",
-          "TrackUs.Services.Mapping": "1.0.0"
+          "TrackUs.Services.Mapping": "1.0.0",
+          "TrackUs.Web.ViewModels": "1.0.0"
         },
         "compile": {
           "bin/placeholder/TrackUs.Services.Data.dll": {}

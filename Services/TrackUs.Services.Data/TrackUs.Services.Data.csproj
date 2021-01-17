@@ -21,6 +21,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Data\TrackUs.Data.Common\TrackUs.Data.Common.csproj" />
     <ProjectReference Include="..\..\Data\TrackUs.Data.Models\TrackUs.Data.Models.csproj" />
+    <ProjectReference Include="..\..\Web\TrackUs.Web.ViewModels\TrackUs.Web.ViewModels.csproj" />
     <ProjectReference Include="..\TrackUs.Services.Mapping\TrackUs.Services.Mapping.csproj" />
   </ItemGroup>
 

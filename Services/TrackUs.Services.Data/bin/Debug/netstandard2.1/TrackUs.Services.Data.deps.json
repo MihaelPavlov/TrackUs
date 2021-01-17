@@ -12,7 +12,8 @@
           "StyleCop.Analyzers": "1.2.0-beta.312",
           "TrackUs.Data.Common": "1.0.0",
           "TrackUs.Data.Models": "1.0.0",
-          "TrackUs.Services.Mapping": "1.0.0"
+          "TrackUs.Services.Mapping": "1.0.0",
+          "TrackUs.Web.ViewModels": "1.0.0"
         },
         "runtime": {
           "TrackUs.Services.Data.dll": {}
@@ -338,6 +339,15 @@
         "runtime": {
           "TrackUs.Services.Mapping.dll": {}
         }
+      },
+      "TrackUs.Web.ViewModels/1.0.0": {
+        "dependencies": {
+          "TrackUs.Data.Models": "1.0.0",
+          "TrackUs.Services.Mapping": "1.0.0"
+        },
+        "runtime": {
+          "TrackUs.Web.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -568,6 +578,11 @@
       "sha512": ""
     },
     "TrackUs.Services.Mapping/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TrackUs.Web.ViewModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

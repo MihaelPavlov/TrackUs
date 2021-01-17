@@ -14,3 +14,5 @@ C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\obj\Debug\net
 C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\obj\Debug\netstandard2.1\TrackUs.Services.Data.csproj.CopyComplete
 C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\obj\Debug\netstandard2.1\TrackUs.Services.Data.dll
 C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\obj\Debug\netstandard2.1\TrackUs.Services.Data.pdb
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\bin\Debug\netstandard2.1\TrackUs.Web.ViewModels.dll
+C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Data\bin\Debug\netstandard2.1\TrackUs.Web.ViewModels.pdb

@@ -58,6 +58,15 @@
             return this.Redirect("/");
         }
 
+        public async Task<IActionResult> MyServices()
+        {
+            var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            var viewModel = await this.homeService.GetUserServices(userId);
+
+            return this.View(viewModel);
+        }
+
         public IActionResult Privacy()
         {
             return this.View();

@@ -382,6 +382,20 @@
         "runtime": {
           "bin/placeholder/TrackUs.Services.Mapping.dll": {}
         }
+      },
+      "TrackUs.Web.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "TrackUs.Data.Models": "1.0.0",
+          "TrackUs.Services.Mapping": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TrackUs.Web.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TrackUs.Web.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -1190,6 +1204,11 @@
       "type": "project",
       "path": "../TrackUs.Services.Mapping/TrackUs.Services.Mapping.csproj",
       "msbuildProject": "../TrackUs.Services.Mapping/TrackUs.Services.Mapping.csproj"
+    },
+    "TrackUs.Web.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../../Web/TrackUs.Web.ViewModels/TrackUs.Web.ViewModels.csproj",
+      "msbuildProject": "../../Web/TrackUs.Web.ViewModels/TrackUs.Web.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1197,7 +1216,8 @@
       "StyleCop.Analyzers >= 1.2.0-beta.312",
       "TrackUs.Data.Common >= 1.0.0",
       "TrackUs.Data.Models >= 1.0.0",
-      "TrackUs.Services.Mapping >= 1.0.0"
+      "TrackUs.Services.Mapping >= 1.0.0",
+      "TrackUs.Web.ViewModels >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1235,6 +1255,9 @@
             },
             "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services.Mapping\\TrackUs.Services.Mapping.csproj": {
               "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services.Mapping\\TrackUs.Services.Mapping.csproj"
+            },
+            "C:\\Users\\Owner\\source\\repos\\TrackUs\\Web\\TrackUs.Web.ViewModels\\TrackUs.Web.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Web\\TrackUs.Web.ViewModels\\TrackUs.Web.ViewModels.csproj"
             }
           }
         }
