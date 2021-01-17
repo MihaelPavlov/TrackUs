@@ -12,14 +12,21 @@
     using TrackUs.Data.Models.Services;
 
     using Microsoft.EntityFrameworkCore;
+    using TrackUs.Data.Models;
+    using System.Net;
 
     public class TrackAppService : ITrackAppService
     {
         private readonly IDeletableEntityRepository<Service> serviceRepository;
+        private readonly IDeletableEntityRepository<Log> logRepository;
+        //private readonly IDeletableEntityRepository<ServiceRequest> logRepository;
+        //private readonly IDeletableEntityRepository<Log> logRepository;
 
-        public TrackAppService(IDeletableEntityRepository<Service> serviceRepository)
+
+        public TrackAppService(IDeletableEntityRepository<Service> serviceRepository, IDeletableEntityRepository<Log> logRepository)
         {
             this.serviceRepository = serviceRepository;
+
         }
 
         public async Task AddServiceByUserId(string userId, string serviceName, string service)
@@ -45,6 +52,11 @@
         {
             return await this.serviceRepository.All().Where(x => x.ApplicationUserId == userId).To<ServiceViewModel>().ToListAsync();
 
+        }
+
+        public async Task<IEnumerable<LogViewModel>> GetLogs(int serviceId)
+        {
+            return await this.serviceRepository.All().Where(x => x.Id == serviceId).To<LogViewModel>().ToListAsync();
         }
     }
 }

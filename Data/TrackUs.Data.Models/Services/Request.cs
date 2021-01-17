@@ -11,6 +11,7 @@
         public Request()
         {
             this.Headers = new HashSet<Header>();
+            this.Logs = new HashSet<Log>();
         }
 
         public string RequestType { get; set; }
@@ -18,5 +19,6 @@
         public DateTime Date { get; set; }
 
         public virtual ICollection<Header> Headers { get; set; }
+        public virtual ICollection<Log> Logs { get; set; }
     }
 }

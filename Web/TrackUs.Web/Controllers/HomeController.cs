@@ -14,13 +14,7 @@
 
     public class HomeController : BaseController
     {
-        private readonly ITrackAppService homeService;
-
-        public HomeController(ITrackAppService homeService)
-        {
-            this.homeService = homeService;
-        }
-
+       
         public async Task<IActionResult> Index()
         {
             return this.View();

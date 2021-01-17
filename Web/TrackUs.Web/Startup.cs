@@ -21,6 +21,11 @@
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
+    using Hangfire;
+    using Newtonsoft.Json;
+    using Hangfire.SqlServer;
+    using System;
+    using System.Threading.Tasks;
 
     public class Startup
     {
@@ -64,12 +69,34 @@
 
             // Application services
             services.AddTransient<IEmailSender, NullMessageSender>();
-            services.AddTransient<ISettingsService, SettingsService>();
             services.AddTransient<ITrackAppService, TrackAppService>();
+
+            services.AddHangfire(config =>
+            {
+                // ReferenceLoop Fixing json error for resetStats on the player
+                config.UseSerializerSettings(new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore });
+                config.SetDataCompatibilityLevel(CompatibilityLevel.Version_110);
+                config.UseSimpleAssemblyNameTypeSerializer();
+                config.UseRecommendedSerializerSettings()
+                .UseSqlServerStorage(
+                this.configuration.GetConnectionString("DefaultConnection"),
+                new SqlServerStorageOptions
+                {
+                    CommandBatchMaxTimeout = TimeSpan.FromMinutes(5),
+                    SlidingInvisibilityTimeout = TimeSpan.FromMinutes(5),
+                    PrepareSchemaIfNecessary = true,
+                    QueuePollInterval = TimeSpan.Zero,
+                    UseRecommendedIsolationLevel = true,
+                    UsePageLocksOnDequeue = true,
+
+                    DisableGlobalLocks = true,
+                });
+            });
+            services.AddHangfireServer();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IRecurringJobManager recurringJob)
         {
             AutoMapperConfig.RegisterMappings(typeof(ErrorViewModel).GetTypeInfo().Assembly);
 
@@ -80,6 +107,8 @@
                 dbContext.Database.Migrate();
                 new ApplicationDbContextSeeder().SeedAsync(dbContext, serviceScope.ServiceProvider).GetAwaiter().GetResult();
             }
+
+            this.SeedHangfireJobs(recurringJob);
 
             if (env.IsDevelopment())
             {
@@ -98,6 +127,8 @@
 
             app.UseRouting();
 
+            app.UseHangfireDashboard();
+
             app.UseAuthentication();
             app.UseAuthorization();
 
@@ -108,6 +139,11 @@
                         endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
                         endpoints.MapRazorPages();
                     });
+        }
+
+        public async Task SeedHangfireJobs(IRecurringJobManager recurringJob)
+        {
+            recurringJob.AddOrUpdate<HangfireCheckStatusCode>("CheckStatus", x => x.CheckStatus(), Cron.Minutely);
         }
     }
 }

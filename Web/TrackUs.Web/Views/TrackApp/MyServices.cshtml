@@ -7,6 +7,7 @@
             <tr>
                 <th scope="col">ServiceName</th>
                 <th scope="col">URL</th>
+                <th scope="col">Logs</th>
             </tr>
         </thead>
         <tbody>
@@ -15,6 +16,7 @@
                 <tr>
                     <td>@service.Name</td>
                     <td>@service.URL</td>
+                    <td><a type="button" class="btn btn-primary btn-sm" asp-controller="TrackApp" asp-action="Logs" asp-route-serviceId="@service.Id">View Logs</a></td>
                 </tr>
             }
         </tbody>

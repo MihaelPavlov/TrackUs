@@ -2,6 +2,7 @@
 {
     using System.Collections.Generic;
     using System.Threading.Tasks;
+
     using TrackUs.Data.Models.Services;
     using TrackUs.Web.ViewModels;
 
@@ -12,5 +13,7 @@
         Task AddServiceByUserId(string userId, string serviceName, string service);
 
         Task<IEnumerable<ServiceViewModel>> GetUserServices(string userId);
+
+        Task<IEnumerable<LogViewModel>> GetLogs(int serviceId);
     }
 }

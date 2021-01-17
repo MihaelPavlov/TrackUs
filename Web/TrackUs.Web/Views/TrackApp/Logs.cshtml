@@ -1,0 +1,24 @@
+﻿@model IEnumerable<LogViewModel>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Request</th>
+            <th scope="col">Date</th>
+            <br>
+            <th scope="col">Response</th>
+            <th scope="col">Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var log in Model)
+        {
+        <tr>
+            <th><a asp-controller="TrackApp" asp-action="GetRequest" asp-route-requestId="@log.ServiceRequestsRequestId">Request</a></th>
+            <td>@log.ServiceResponsesResponseDate</td>
+            <td><a asp-controller="TrackApp" asp-action="GetResponse" asp-route-responseId="@log.ServiceResponsesResponseId">Response</a></td>
+            <td>@log.ServiceResponsesResponseDate</td>
+        </tr>
+        }
+
+    </tbody>
+</table>

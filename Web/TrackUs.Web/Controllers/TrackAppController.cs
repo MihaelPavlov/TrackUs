@@ -9,6 +9,7 @@
 
     using Microsoft.AspNetCore.Mvc;
     using TrackUs.Services.Data;
+    using TrackUs.Web.ViewModels;
 
     public class TrackAppController : Controller
     {
@@ -64,6 +65,13 @@
 
             var viewModel = await this.trackAppService.GetUserServices(userId);
 
+            return this.View(viewModel);
+        }
+
+
+        public async Task<IActionResult> Logs(int serviceId)
+        {
+            var viewModel = await this.trackAppService.GetLogs(serviceId);
             return this.View(viewModel);
         }
 

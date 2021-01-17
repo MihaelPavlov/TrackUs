@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TrackUs.Data;
 
 namespace TrackUs.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210117110524_AddHeaderProperties")]
+    partial class AddHeaderProperties
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -609,13 +611,13 @@ namespace TrackUs.Data.Migrations
             modelBuilder.Entity("TrackUs.Data.Models.Services.Log", b =>
                 {
                     b.HasOne("TrackUs.Data.Models.Services.Request", "Request")
-                        .WithMany("Logs")
+                        .WithMany()
                         .HasForeignKey("RequestId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("TrackUs.Data.Models.Services.Response", "Response")
-                        .WithMany("Logs")
+                        .WithMany()
                         .HasForeignKey("ResponseId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
@@ -686,8 +688,6 @@ namespace TrackUs.Data.Migrations
             modelBuilder.Entity("TrackUs.Data.Models.Services.Request", b =>
                 {
                     b.Navigation("Headers");
-
-                    b.Navigation("Logs");
                 });
 
             modelBuilder.Entity("TrackUs.Data.Models.Services.Response", b =>
@@ -695,8 +695,6 @@ namespace TrackUs.Data.Migrations
                     b.Navigation("Errors");
 
                     b.Navigation("Headers");
-
-                    b.Navigation("Logs");
                 });
 
             modelBuilder.Entity("TrackUs.Data.Models.Services.Service", b =>
