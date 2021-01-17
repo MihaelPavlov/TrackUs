@@ -8,6 +8,12 @@
 
     public class Service : BaseDeletableModel<int>
     {
+        public Service()
+        {
+            this.ServiceRequests = new HashSet<ServiceRequest>();
+            this.ServiceResponses = new HashSet<ServiceResponse>();
+        }
+
         public string Name { get; set; }
 
         public virtual string ApplicationUserId { get; set; }

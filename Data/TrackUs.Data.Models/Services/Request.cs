@@ -8,6 +8,15 @@
 
     public class Request : BaseDeletableModel<int>
     {
+        public Request()
+        {
+            this.Headers = new HashSet<Header>();
+        }
+
+        public string RequestType { get; set; }
+
         public DateTime Date { get; set; }
+
+        public virtual ICollection<Header> Headers { get; set; }
     }
 }

@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/Identity" Path="C:\Users\Owner\.nuget\packages\microsoft.aspnetcore.identity.ui\5.0.1\staticwebassets\V4\" />
+  <ContentRoot BasePath="_content/TrackUs.Web" Path="C:\Users\Owner\source\repos\TrackUs\Web\TrackUs.Web\wwwroot\" />
+</StaticWebAssets>

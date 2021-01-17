@@ -8,10 +8,20 @@
     using System.Net;
     using System;
     using System.Net.Http;
+    using TrackUs.Services.Data;
+    using System.Threading.Tasks;
+    using System.Security.Claims;
 
     public class HomeController : BaseController
     {
-        public IActionResult Index()
+        private readonly IHomeService homeService;
+
+        public HomeController(IHomeService homeService)
+        {
+            this.homeService = homeService;
+        }
+
+        public async Task<IActionResult> Index()
         {
             // Create a new 'Uri' object with the specified string.
             Uri myUri = new Uri("https://getbootstrap.com/docs/4.0/content/tables/");// user => services => request, response => 
@@ -31,11 +41,21 @@
                 }
 
             }
-            catch (Exception ex )
+            catch (Exception ex)
             {
                 this.ViewBag.result = ex.Message;
             }
             return this.View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Index(string service, string serviceName)
+        {
+            var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            await this.homeService.AddServiceByUserId(userId, serviceName, service);
+
+            return this.Redirect("/");
         }
 
         public IActionResult Privacy()
