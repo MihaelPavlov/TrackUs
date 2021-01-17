@@ -1,22 +1,23 @@
 ﻿namespace TrackUs.Services.Data
 {
-    using Microsoft.EntityFrameworkCore;
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
 
-    using TrackUs.Services.Mapping;
     using TrackUs.Data.Common.Repositories;
-    using TrackUs.Data.Models.Services;
     using TrackUs.Web.ViewModels;
+    using TrackUs.Services.Mapping;
+    using TrackUs.Data.Models.Services;
 
-    public class HomeService : IHomeService
+    using Microsoft.EntityFrameworkCore;
+
+    public class TrackAppService : ITrackAppService
     {
         private readonly IDeletableEntityRepository<Service> serviceRepository;
 
-        public HomeService(IDeletableEntityRepository<Service> serviceRepository)
+        public TrackAppService(IDeletableEntityRepository<Service> serviceRepository)
         {
             this.serviceRepository = serviceRepository;
         }

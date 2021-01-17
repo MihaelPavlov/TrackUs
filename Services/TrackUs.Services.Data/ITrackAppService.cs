@@ -5,7 +5,7 @@
     using TrackUs.Data.Models.Services;
     using TrackUs.Web.ViewModels;
 
-    public interface IHomeService
+    public interface ITrackAppService
     {
         Service GetServiceByUserIdAndName(string userId, string serviceName);
 

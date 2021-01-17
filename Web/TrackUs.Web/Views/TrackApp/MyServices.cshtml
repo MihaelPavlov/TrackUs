@@ -1,0 +1,21 @@
+﻿@model IEnumerable<ServiceViewModel>
+
+    <a class="btn btn-primary btn-sm" asp-controller="TrackApp" asp-action="AddService">Add Service</a>
+
+    <table class="table table-sm">
+        <thead>
+            <tr>
+                <th scope="col">ServiceName</th>
+                <th scope="col">URL</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var service in Model)
+            {
+                <tr>
+                    <td>@service.Name</td>
+                    <td>@service.URL</td>
+                </tr>
+            }
+        </tbody>
+    </table>

@@ -1,33 +1,12 @@
 ﻿@using TrackUs.Common
-@model ServiceInputViewModel
+
 @{
     this.ViewData["Title"] = "Home Page";
 }
-@if (User.Identity.IsAuthenticated)
-{
-    <div class="container-full">
 
-        <div class="jumbotron text-center" style="background-color:transparent; margin:auto">
-            <form method="post" asp-controller="Home" asp-action="Index" name="verifyForm" ng-submit="submitForm()" novalidate>
-                <div class="input-group input-group-lg col-xs-1" style="margin: auto;" ng-class="{'has-error': verifyForm.verifyCode.$invalid}">
-                    <input type="text" class="form-control" placeholder="Services" style="min-width:15em" asp-for="Service">
-                    <input type="text" class="form-control" placeholder="ServiceName" style="min-width:15em" asp-for="ServiceName">
-                    <span class="input-group-addon">
-                        <button id="filter" class="btn btn-primary btn-block" onclick="submitForm();" style="background-color:#6e5cbf; color: #ffffff">
-                            Add Services
-                        </button>
-                    </span>
-                </div>
-            </form>
-        </div>
-    </div>
-}
-else
-{
 
-    <div class="text-center">
-        <h1 class="display-4">Welcome to @GlobalConstants.SystemName!</h1>
-        <p>@this.ViewBag.result</p>
-    </div>
-
+<div class="text-center">
+    <h1 class="display-4">Welcome to @GlobalConstants.SystemName!</h1>
+    <p>@this.ViewBag.result</p>
+</div>
 }
