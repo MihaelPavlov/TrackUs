@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "eM18itbi7ygFeck8cPxc8stFgh69OdKfXdmU2XGNt0TVuPCuqack8w2M1szK87RX/B85LKsjLZ3buGkyfvyH/w==",
+  "dgSpecHash": "nX/TIcUMqTZsNdHaXxpSVdJ9Sq8QajgAUQL4Z/HA6RdVihFS6Lm/+Rl7Wu2Vu4ohj/N04skTS4Uywjiq+np8Ww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services\\TrackUs.Services.csproj",
+  "projectFilePath": "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services\\TrackUs.Services.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Owner\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
-    "C:\\Users\\Owner\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"
+    "C:\\Users\\Rex\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
+    "C:\\Users\\Rex\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"
   ],
   "logs": []
 }

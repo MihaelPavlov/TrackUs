@@ -1,9 +1,0 @@
-C:\Users\Owner\source\repos\TrackUs\TrackUs.Common\bin\Debug\netstandard2.1\TrackUs.Common.deps.json
-C:\Users\Owner\source\repos\TrackUs\TrackUs.Common\bin\Debug\netstandard2.1\TrackUs.Common.dll
-C:\Users\Owner\source\repos\TrackUs\TrackUs.Common\bin\Debug\netstandard2.1\TrackUs.Common.pdb
-C:\Users\Owner\source\repos\TrackUs\TrackUs.Common\obj\Debug\netstandard2.1\TrackUs.Common.csprojAssemblyReference.cache
-C:\Users\Owner\source\repos\TrackUs\TrackUs.Common\obj\Debug\netstandard2.1\TrackUs.Common.AssemblyInfoInputs.cache
-C:\Users\Owner\source\repos\TrackUs\TrackUs.Common\obj\Debug\netstandard2.1\TrackUs.Common.AssemblyInfo.cs
-C:\Users\Owner\source\repos\TrackUs\TrackUs.Common\obj\Debug\netstandard2.1\TrackUs.Common.csproj.CoreCompileInputs.cache
-C:\Users\Owner\source\repos\TrackUs\TrackUs.Common\obj\Debug\netstandard2.1\TrackUs.Common.dll
-C:\Users\Owner\source\repos\TrackUs\TrackUs.Common\obj\Debug\netstandard2.1\TrackUs.Common.pdb

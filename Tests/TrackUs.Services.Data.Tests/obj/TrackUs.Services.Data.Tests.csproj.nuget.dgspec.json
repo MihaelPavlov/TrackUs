@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Owner\\source\\repos\\TrackUs\\Tests\\TrackUs.Services.Data.Tests\\TrackUs.Services.Data.Tests.csproj": {}
+    "D:\\C# - Projects\\TrackUs\\Tests\\TrackUs.Services.Data.Tests\\TrackUs.Services.Data.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data.Common\\TrackUs.Data.Common.csproj": {
+    "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data.Common\\TrackUs.Data.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data.Common\\TrackUs.Data.Common.csproj",
+        "projectUniqueName": "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data.Common\\TrackUs.Data.Common.csproj",
         "projectName": "TrackUs.Data.Common",
-        "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data.Common\\TrackUs.Data.Common.csproj",
-        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data.Common\\obj\\",
+        "projectPath": "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data.Common\\TrackUs.Data.Common.csproj",
+        "packagesPath": "C:\\Users\\Rex\\.nuget\\packages\\",
+        "outputPath": "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data.Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,17 +73,20 @@
         }
       }
     },
-    "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data.Models\\TrackUs.Data.Models.csproj": {
+    "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data.Models\\TrackUs.Data.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data.Models\\TrackUs.Data.Models.csproj",
+        "projectUniqueName": "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data.Models\\TrackUs.Data.Models.csproj",
         "projectName": "TrackUs.Data.Models",
-        "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data.Models\\TrackUs.Data.Models.csproj",
-        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data.Models\\obj\\",
+        "projectPath": "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data.Models\\TrackUs.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\Rex\\.nuget\\packages\\",
+        "outputPath": "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,8 +100,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data.Common\\TrackUs.Data.Common.csproj": {
-                "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data.Common\\TrackUs.Data.Common.csproj"
+              "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data.Common\\TrackUs.Data.Common.csproj": {
+                "projectPath": "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data.Common\\TrackUs.Data.Common.csproj"
               }
             }
           }
@@ -140,17 +146,20 @@
         }
       }
     },
-    "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data\\TrackUs.Data.csproj": {
+    "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data\\TrackUs.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data\\TrackUs.Data.csproj",
+        "projectUniqueName": "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data\\TrackUs.Data.csproj",
         "projectName": "TrackUs.Data",
-        "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data\\TrackUs.Data.csproj",
-        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data\\obj\\",
+        "projectPath": "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data\\TrackUs.Data.csproj",
+        "packagesPath": "C:\\Users\\Rex\\.nuget\\packages\\",
+        "outputPath": "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -164,14 +173,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data.Common\\TrackUs.Data.Common.csproj": {
-                "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data.Common\\TrackUs.Data.Common.csproj"
+              "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data.Common\\TrackUs.Data.Common.csproj": {
+                "projectPath": "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data.Common\\TrackUs.Data.Common.csproj"
               },
-              "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data.Models\\TrackUs.Data.Models.csproj": {
-                "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data.Models\\TrackUs.Data.Models.csproj"
+              "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data.Models\\TrackUs.Data.Models.csproj": {
+                "projectPath": "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data.Models\\TrackUs.Data.Models.csproj"
               },
-              "C:\\Users\\Owner\\source\\repos\\TrackUs\\TrackUs.Common\\TrackUs.Common.csproj": {
-                "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\TrackUs.Common\\TrackUs.Common.csproj"
+              "D:\\C# - Projects\\TrackUs\\TrackUs.Common\\TrackUs.Common.csproj": {
+                "projectPath": "D:\\C# - Projects\\TrackUs\\TrackUs.Common\\TrackUs.Common.csproj"
               }
             }
           }
@@ -236,17 +245,20 @@
         }
       }
     },
-    "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services.Data\\TrackUs.Services.Data.csproj": {
+    "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services.Data\\TrackUs.Services.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services.Data\\TrackUs.Services.Data.csproj",
+        "projectUniqueName": "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services.Data\\TrackUs.Services.Data.csproj",
         "projectName": "TrackUs.Services.Data",
-        "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services.Data\\TrackUs.Services.Data.csproj",
-        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services.Data\\obj\\",
+        "projectPath": "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services.Data\\TrackUs.Services.Data.csproj",
+        "packagesPath": "C:\\Users\\Rex\\.nuget\\packages\\",
+        "outputPath": "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -260,14 +272,14 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data.Common\\TrackUs.Data.Common.csproj": {
-                "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data.Common\\TrackUs.Data.Common.csproj"
+              "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data.Common\\TrackUs.Data.Common.csproj": {
+                "projectPath": "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data.Common\\TrackUs.Data.Common.csproj"
               },
-              "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data.Models\\TrackUs.Data.Models.csproj": {
-                "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data.Models\\TrackUs.Data.Models.csproj"
+              "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data.Models\\TrackUs.Data.Models.csproj": {
+                "projectPath": "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data.Models\\TrackUs.Data.Models.csproj"
               },
-              "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services.Mapping\\TrackUs.Services.Mapping.csproj": {
-                "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services.Mapping\\TrackUs.Services.Mapping.csproj"
+              "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services.Mapping\\TrackUs.Services.Mapping.csproj": {
+                "projectPath": "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services.Mapping\\TrackUs.Services.Mapping.csproj"
               }
             }
           }
@@ -308,17 +320,20 @@
         }
       }
     },
-    "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services.Mapping\\TrackUs.Services.Mapping.csproj": {
+    "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services.Mapping\\TrackUs.Services.Mapping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services.Mapping\\TrackUs.Services.Mapping.csproj",
+        "projectUniqueName": "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services.Mapping\\TrackUs.Services.Mapping.csproj",
         "projectName": "TrackUs.Services.Mapping",
-        "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services.Mapping\\TrackUs.Services.Mapping.csproj",
-        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services.Mapping\\obj\\",
+        "projectPath": "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services.Mapping\\TrackUs.Services.Mapping.csproj",
+        "packagesPath": "C:\\Users\\Rex\\.nuget\\packages\\",
+        "outputPath": "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services.Mapping\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -374,17 +389,20 @@
         }
       }
     },
-    "C:\\Users\\Owner\\source\\repos\\TrackUs\\Tests\\TrackUs.Services.Data.Tests\\TrackUs.Services.Data.Tests.csproj": {
+    "D:\\C# - Projects\\TrackUs\\Tests\\TrackUs.Services.Data.Tests\\TrackUs.Services.Data.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Tests\\TrackUs.Services.Data.Tests\\TrackUs.Services.Data.Tests.csproj",
+        "projectUniqueName": "D:\\C# - Projects\\TrackUs\\Tests\\TrackUs.Services.Data.Tests\\TrackUs.Services.Data.Tests.csproj",
         "projectName": "TrackUs.Services.Data.Tests",
-        "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Tests\\TrackUs.Services.Data.Tests\\TrackUs.Services.Data.Tests.csproj",
-        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Tests\\TrackUs.Services.Data.Tests\\obj\\",
+        "projectPath": "D:\\C# - Projects\\TrackUs\\Tests\\TrackUs.Services.Data.Tests\\TrackUs.Services.Data.Tests.csproj",
+        "packagesPath": "C:\\Users\\Rex\\.nuget\\packages\\",
+        "outputPath": "D:\\C# - Projects\\TrackUs\\Tests\\TrackUs.Services.Data.Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -398,11 +416,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data\\TrackUs.Data.csproj": {
-                "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data\\TrackUs.Data.csproj"
+              "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data\\TrackUs.Data.csproj": {
+                "projectPath": "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data\\TrackUs.Data.csproj"
               },
-              "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services.Data\\TrackUs.Services.Data.csproj": {
-                "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services.Data\\TrackUs.Services.Data.csproj"
+              "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services.Data\\TrackUs.Services.Data.csproj": {
+                "projectPath": "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services.Data\\TrackUs.Services.Data.csproj"
               }
             }
           }
@@ -465,17 +483,20 @@
         }
       }
     },
-    "C:\\Users\\Owner\\source\\repos\\TrackUs\\TrackUs.Common\\TrackUs.Common.csproj": {
+    "D:\\C# - Projects\\TrackUs\\TrackUs.Common\\TrackUs.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Owner\\source\\repos\\TrackUs\\TrackUs.Common\\TrackUs.Common.csproj",
+        "projectUniqueName": "D:\\C# - Projects\\TrackUs\\TrackUs.Common\\TrackUs.Common.csproj",
         "projectName": "TrackUs.Common",
-        "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\TrackUs.Common\\TrackUs.Common.csproj",
-        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\TrackUs.Common\\obj\\",
+        "projectPath": "D:\\C# - Projects\\TrackUs\\TrackUs.Common\\TrackUs.Common.csproj",
+        "packagesPath": "C:\\Users\\Rex\\.nuget\\packages\\",
+        "outputPath": "D:\\C# - Projects\\TrackUs\\TrackUs.Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

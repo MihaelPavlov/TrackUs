@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TLQ91bxNfDx8uMbpBD05857TkbNZspEHMQgHTSGJxPapkjUwBKwaslaxdlwCRPGK1flz0DBa3jEREJWAgzR78A==",
+  "dgSpecHash": "MAawH0D/U1fvG6jP3UyGg41f9YBV4gx3jcye23gPE+GbsvyODp5vOM4RYCh5O14WeSB07VAlctRZxtrNmeLRyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Data\\TrackUs.Data.Common\\TrackUs.Data.Common.csproj",
+  "projectFilePath": "D:\\C# - Projects\\TrackUs\\Data\\TrackUs.Data.Common\\TrackUs.Data.Common.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Owner\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
-    "C:\\Users\\Owner\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512",
-    "C:\\Users\\Owner\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "C:\\Users\\Rex\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
+    "C:\\Users\\Rex\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512",
+    "C:\\Users\\Rex\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

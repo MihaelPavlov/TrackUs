@@ -60,19 +60,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Owner\\.nuget\\packages\\": {}
+    "C:\\Users\\Rex\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services\\TrackUs.Services.csproj",
+      "projectUniqueName": "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services\\TrackUs.Services.csproj",
       "projectName": "TrackUs.Services",
-      "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services\\TrackUs.Services.csproj",
-      "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services\\obj\\",
+      "projectPath": "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services\\TrackUs.Services.csproj",
+      "packagesPath": "C:\\Users\\Rex\\.nuget\\packages\\",
+      "outputPath": "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Rex\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

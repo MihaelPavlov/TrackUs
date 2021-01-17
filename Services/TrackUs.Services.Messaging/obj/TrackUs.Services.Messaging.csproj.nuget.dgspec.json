@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services.Messaging\\TrackUs.Services.Messaging.csproj": {}
+    "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services.Messaging\\TrackUs.Services.Messaging.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services.Messaging\\TrackUs.Services.Messaging.csproj": {
+    "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services.Messaging\\TrackUs.Services.Messaging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services.Messaging\\TrackUs.Services.Messaging.csproj",
+        "projectUniqueName": "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services.Messaging\\TrackUs.Services.Messaging.csproj",
         "projectName": "TrackUs.Services.Messaging",
-        "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services.Messaging\\TrackUs.Services.Messaging.csproj",
-        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\Services\\TrackUs.Services.Messaging\\obj\\",
+        "projectPath": "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services.Messaging\\TrackUs.Services.Messaging.csproj",
+        "packagesPath": "C:\\Users\\Rex\\.nuget\\packages\\",
+        "outputPath": "D:\\C# - Projects\\TrackUs\\Services\\TrackUs.Services.Messaging\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

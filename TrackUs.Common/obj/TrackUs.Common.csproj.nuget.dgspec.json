@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Owner\\source\\repos\\TrackUs\\TrackUs.Common\\TrackUs.Common.csproj": {}
+    "D:\\C# - Projects\\TrackUs\\TrackUs.Common\\TrackUs.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Owner\\source\\repos\\TrackUs\\TrackUs.Common\\TrackUs.Common.csproj": {
+    "D:\\C# - Projects\\TrackUs\\TrackUs.Common\\TrackUs.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Owner\\source\\repos\\TrackUs\\TrackUs.Common\\TrackUs.Common.csproj",
+        "projectUniqueName": "D:\\C# - Projects\\TrackUs\\TrackUs.Common\\TrackUs.Common.csproj",
         "projectName": "TrackUs.Common",
-        "projectPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\TrackUs.Common\\TrackUs.Common.csproj",
-        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Owner\\source\\repos\\TrackUs\\TrackUs.Common\\obj\\",
+        "projectPath": "D:\\C# - Projects\\TrackUs\\TrackUs.Common\\TrackUs.Common.csproj",
+        "packagesPath": "C:\\Users\\Rex\\.nuget\\packages\\",
+        "outputPath": "D:\\C# - Projects\\TrackUs\\TrackUs.Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
