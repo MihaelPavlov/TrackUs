@@ -1,9 +1,0 @@
-C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Messaging\bin\Debug\netstandard2.1\TrackUs.Services.Messaging.deps.json
-C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Messaging\bin\Debug\netstandard2.1\TrackUs.Services.Messaging.dll
-C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Messaging\bin\Debug\netstandard2.1\TrackUs.Services.Messaging.pdb
-C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Messaging\obj\Debug\netstandard2.1\TrackUs.Services.Messaging.csprojAssemblyReference.cache
-C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Messaging\obj\Debug\netstandard2.1\TrackUs.Services.Messaging.AssemblyInfoInputs.cache
-C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Messaging\obj\Debug\netstandard2.1\TrackUs.Services.Messaging.AssemblyInfo.cs
-C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Messaging\obj\Debug\netstandard2.1\TrackUs.Services.Messaging.csproj.CoreCompileInputs.cache
-C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Messaging\obj\Debug\netstandard2.1\TrackUs.Services.Messaging.dll
-C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Messaging\obj\Debug\netstandard2.1\TrackUs.Services.Messaging.pdb

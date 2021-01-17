@@ -1,9 +1,0 @@
-C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Mapping\bin\Debug\netstandard2.1\TrackUs.Services.Mapping.deps.json
-C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Mapping\bin\Debug\netstandard2.1\TrackUs.Services.Mapping.dll
-C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Mapping\bin\Debug\netstandard2.1\TrackUs.Services.Mapping.pdb
-C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Mapping\obj\Debug\netstandard2.1\TrackUs.Services.Mapping.csprojAssemblyReference.cache
-C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Mapping\obj\Debug\netstandard2.1\TrackUs.Services.Mapping.AssemblyInfoInputs.cache
-C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Mapping\obj\Debug\netstandard2.1\TrackUs.Services.Mapping.AssemblyInfo.cs
-C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Mapping\obj\Debug\netstandard2.1\TrackUs.Services.Mapping.csproj.CoreCompileInputs.cache
-C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Mapping\obj\Debug\netstandard2.1\TrackUs.Services.Mapping.dll
-C:\Users\Owner\source\repos\TrackUs\Services\TrackUs.Services.Mapping\obj\Debug\netstandard2.1\TrackUs.Services.Mapping.pdb
